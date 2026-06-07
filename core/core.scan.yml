@@ -1,1 +1,26 @@
+version: 1
+
+scan:
+  id: scan_core
+  label: "SCAN-KERN"
+  active: true
+
+achsen:
+  total: 48
+  wuerfelperium: 14
+  raum_viertelung: true
+
+scannt:
+  - system
+  - respos
+  - starts
+  - sonderraeume
+  - none
+  - oneway-root
+
+liefert:
+  - "48-Achsen-Status"
+  - "14-Achsen-Würfelperium-Abgleich"
+  - "1/4-Raum-Position"
+  - "Neutraler Wissenschafts-Abgleich"
 
