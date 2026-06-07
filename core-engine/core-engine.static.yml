@@ -1,1 +1,28 @@
+version: 1
+
+core_engine:
+  id: core_engine
+  label: "CORE-ENGINE"
+  active: true
+  claim: "Universaler Mehrweg-Raum für Engine oder Modul"
+
+mode:
+  engine: true
+  modul: true
+  neutral: true
+  multi_path: true
+
+compatibility:
+  math: true
+  physics: true
+  chemistry: true
+  biology: true
+  medicine: true
+  gentech: true
+  universal: true
+
+oneway_root:
+  accept: true
+  forward: true
+  multi_route: true
 
