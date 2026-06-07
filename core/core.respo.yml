@@ -1,1 +1,21 @@
+version: 1
+
+respo:
+  id: core_respo
+  label: "RESPO-KERN"
+  mode: "abgleich"
+  active: true
+
+bereitstellen:
+  scan: scan_core
+  toolomat: toolomat_core
+  sichtbar: true
+  nutzbar: true
+
+fuer:
+  - alle_respos
+  - alle_starts
+  - alle_actions
+  - sonderraeume
+  - oneway-root
 
