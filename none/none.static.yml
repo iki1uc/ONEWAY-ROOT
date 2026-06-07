@@ -1,29 +1,5 @@
 version: 1
-
-none:
-  id: none
-  label: "TECH-NEUTRAL"
-  active: true
-  claim: "Neutraler Sonderraum für alle Inhalte ohne Fachzugehörigkeit"
-
-compatibility:
-  math: true
-  physics: true
-  chemistry: true
-  medicine: true
-  biology: true
-  gentech: true
-  universal: true
-
-purpose:
-  - "Auffangraum für nicht zuordenbare Inhalte"
-  - "Neutraler Speicher für Sonderfälle"
-  - "Kompatibilitätsraum für alle Wissenschaften"
-  - "Stabiler Respo-Raum ohne Konflikte"
-
-scope:
-  - system
-  - respo
-  - start
-  - info
-
+id: none
+label: "TECH-NEUTRAL"
+active: true
+claim: "Neutraler Raum für Inhalte ohne Fachzugehörigkeit"
