@@ -1,1 +1,15 @@
+version: 1
+
+x:
+  id: index
+  label: "INDEX ROOT"
+  active: true
+  claim: "Root-Startpunkt des ONEWAY-ROOT Systems"
+
+deliver:
+  info:
+    - "Systemstatus"
+    - "Root-Integrität"
+    - "Startmatrix"
+    - "Respo-Verfügbarkeit"
 
