@@ -1,1 +1,3 @@
-
+  - id: none
+    label: "TECH-NEUTRAL"
+    path: "/none/none.static.yml"
