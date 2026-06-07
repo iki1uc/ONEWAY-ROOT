@@ -1,1 +1,20 @@
+version: 1
 
+respo:
+  id: none_respo
+  label: "NEUTRAL-RESPO"
+  mode: "abgleich"
+  active: true
+
+abgleich:
+  achsen_48: true
+  achsen_14_wuerfelperium: true
+  raum_viertelung: true
+  realer_umstand: true
+
+deliver:
+  info:
+    - "48-Achsen-Abgleich"
+    - "14-Achsen-Würfelperium"
+    - "Neutraler Raumstatus"
+    - "Kompatibilitätsmatrix"
