@@ -1,1 +1,24 @@
+version: 1
+
+core:
+  id: core
+  label: "KERN-KOMPETENZ"
+  active: true
+  claim: "Zentraler Raum für SCAN und TOOLOMAT"
+
+compatibility:
+  math: true
+  physics: true
+  chemistry: true
+  biology: true
+  medicine: true
+  gentech: true
+  universal: true
+
+scope:
+  - system
+  - respo
+  - scan
+  - toolomat
+  - info
 
