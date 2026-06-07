@@ -1,1 +1,15 @@
+version: 1
+
+x:
+  id: error
+  label: "ERROR ANALYSE"
+  active: true
+  claim: "Fehlerraum für ONEWAY-ROOT"
+
+deliver:
+  info:
+    - "Fehlerstatus"
+    - "Abweichungsanalyse"
+    - "Wiederherstellungsoptionen"
+    - "Neutraler Abgleich"
 
