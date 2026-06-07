@@ -17,6 +17,10 @@ starts:
     label: "READ"
     path: "/read/read.x.yml"
 
+  - id: none
+    label: "TECH-NEUTRAL"
+    path: "/none/none.static.yml"
+
 options:
   show_all: true
   auto_discover: true
