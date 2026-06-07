@@ -1,18 +1,23 @@
 version: 1
 
 starts:
+  - id: index
+    label: "INDEX"
+    path: "/index/index.x.yml"
+
+  - id: error
+    label: "ERROR"
+    path: "/error/error.x.yml"
+
   - id: start8
     label: "START8"
-    path: "/start8/start8.static.yml"
+    path: "/start8/start8.x.yml"
 
-  - id: 6iy
-    label: "6IY"
-    path: "/6iy/6iy.static.yml"
+  - id: read
+    label: "READ"
+    path: "/read/read.x.yml"
 
-  - id: beu
-    label: "BEU"
-    path: "/beu/beu.static.yml"
-
-  - id: none
-    label: "TECH-NEUTRAL"
-    path: "/none/none.static.yml"
+options:
+  show_all: true
+  auto_discover: true
+  sort: alphabetical
