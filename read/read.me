@@ -1,1 +1,44 @@
+version: 1
+
+x:
+  id: read
+  label: "READ RAW"
+  active: true
+  claim: "RAW-Reader für ONEWAY-ROOT ohne Interna"
+
+deliver:
+  info:
+    - "Dokumentenstatus"
+    - "RAW-Abbildung"
+    - "ASCII-Geometrie"
+    - "Neutraler Wissenschafts-Abgleich"
+
+raw:
+  ascii:
+    cube_1d: |
+      ●────●
+
+    cube_2d: |
+      ●────●
+      │    │
+      ●────●
+
+    cube_3d: |
+         ●────●
+        /    /│
+      ●────● │
+      │    │ ●
+      │    │/
+      ●────●
+
+    cube_4d_hint: |
+      [4D-Projektion]
+      ●───●───●───●
+      │ x │ x │ x │
+      ●───●───●───●
+
+  meta:
+    - "RAW = reine Abbildung ohne Systeminterna"
+    - "ASCII = sichtbare Geometrie ohne Engine"
+    - "READ = neutraler Dokumentkörper"
 
