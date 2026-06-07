@@ -1,1 +1,15 @@
+version: 1
+
+x:
+  id: start8
+  label: "START8 KERN"
+  active: true
+  claim: "Start8-Startkörper"
+
+deliver:
+  info:
+    - "Start8-Status"
+    - "48-Achsen-Abgleich"
+    - "14-Achsen-Würfelperium"
+    - "1/4-Raumposition"
 
