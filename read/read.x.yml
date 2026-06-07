@@ -1,1 +1,15 @@
 
+version: 1
+
+x:
+  id: read
+  label: "READ META"
+  active: true
+  claim: "Meta-Reader für ONEWAY-ROOT"
+
+deliver:
+  info:
+    - "Dokumentenstatus"
+    - "Meta-Analyse"
+    - "Kompatibilitätsmatrix"
+    - "Systemeinordnung"
