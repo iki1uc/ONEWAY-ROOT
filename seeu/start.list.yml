@@ -1,3 +1,16 @@
+starts:
+  - id: start8
+    label: "START8"
+    path: "/start8/start8.static.yml"
+
+  - id: 6iy
+    label: "6IY"
+    path: "/6iy/6iy.static.yml"
+
+  - id: beu
+    label: "BEU"
+    path: "/beu/beu.static.yml"
+
   - id: none
     label: "TECH-NEUTRAL"
     path: "/none/none.static.yml"
