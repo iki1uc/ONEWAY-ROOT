@@ -1,1 +1,9 @@
+version: 1
+
+start:
+  id: none
+  label: "NEUTRAL START"
+  visible: true
+  usable: true
+  claim: "Startpunkt für alle Inhalte ohne Fachzuordnung"
 
