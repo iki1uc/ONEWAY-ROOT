@@ -1,1 +1,9 @@
+version: 1
+
+start:
+  id: core_engine
+  label: "CORE ENGINE START"
+  visible: true
+  usable: true
+  claim: "Startpunkt für Engine/Modul-Mehrweg"
 
