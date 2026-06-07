@@ -1,1 +1,20 @@
+version: 1
+
+toolomat:
+  id: toolomat_core
+  label: "TOOLOMAT-KERN"
+  active: true
+
+verarbeitet:
+  - scan_core
+  - respo_master
+  - none_respo
+  - start_respos
+
+ausgabe:
+  - "Kompatibilitätsmatrix"
+  - "Achsen-Analyse"
+  - "Würfelperium-Status"
+  - "Neutraler Wissenschafts-Report"
+  - "System-Integrität"
 
