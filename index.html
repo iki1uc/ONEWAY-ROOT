@@ -1,16 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Kandidat Index</title>
-</head>
-<body>
-  <h1>Kandidat: {{respo}}</h1>
-  <p>Base: {{base}}</p>
-  <p>Line: L(n)=3n</p>
-  <p>Instance: I(n)=base+3n</p>
-  <p>Axis: A(n)=floor(n/3)+1</p>
+<div id="oneway-root">
 
-  <a href="id.html">→ zur ID‑Ansicht</a>
-</body>
-</html>
+  <!-- A – aktiv -->
+  <div class="unit" id="unit-A">
+    <h2>A</h2>
+
+    <div class="cube-row">
+      <div class="cube cube-45">A1 – 45°</div>
+      <div class="cube cube-90">A2 – 90°</div>
+    </div>
+
+    <button class="trigger" data-respo="A">Trigger A</button>
+  </div>
+
+  <!-- B – sekundär aktiv -->
+  <div class="unit" id="unit-B">
+    <h2>B</h2>
+
+    <div class="cube-row">
+      <div class="cube cube-45">B1 – 45°</div>
+      <div class="cube cube-90">B2 – 90°</div>
+    </div>
+
+    <button class="trigger" data-respo="B">Trigger B</button>
+  </div>
+
+  <!-- C – passiv (nur Struktur) -->
+  <div class="unit passive" id="unit-C">
+    <h2>C</h2>
+    <div class="placeholder">C (passiv)</div>
+  </div>
+
+</div>
