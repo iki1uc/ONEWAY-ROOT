@@ -1,33 +1,63 @@
-<div id="oneway-root">
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>ONEWAY‑ROOT – Mond/Sonne</title>
 
-  <!-- A – aktiv -->
-  <div class="unit" id="unit-A">
-    <h2>A</h2>
+<style>
+body {
+    background:#000;
+    color:#fff;
+    font-family:monospace;
+    text-align:center;
+    padding-top:80px;
+}
 
-    <div class="cube-row">
-      <div class="cube cube-45">A1 – 45°</div>
-      <div class="cube cube-90">A2 – 90°</div>
-    </div>
+/* Sonne */
+.sun {
+    width:120px;
+    height:120px;
+    background:#ff0;
+    border-radius:50%;
+    box-shadow:0 0 40px #ff0;
+    margin:auto;
+    display:none;
+}
 
-    <button class="trigger" data-respo="A">Trigger A</button>
-  </div>
+/* Mond */
+.moon {
+    width:120px;
+    height:120px;
+    background:#ccc;
+    border-radius:50%;
+    box-shadow:0 0 40px #ccc;
+    margin:auto;
+    display:none;
+}
+</style>
 
-  <!-- B – sekundär aktiv -->
-  <div class="unit" id="unit-B">
-    <h2>B</h2>
+</head>
 
-    <div class="cube-row">
-      <div class="cube cube-45">B1 – 45°</div>
-      <div class="cube cube-90">B2 – 90°</div>
-    </div>
+<body>
 
-    <button class="trigger" data-respo="B">Trigger B</button>
-  </div>
+<div id="sun" class="sun"></div>
+<div id="moon" class="moon"></div>
 
-  <!-- C – passiv (nur Struktur) -->
-  <div class="unit passive" id="unit-C">
-    <h2>C</h2>
-    <div class="placeholder">C (passiv)</div>
-  </div>
+<script>
+let state = 0;
 
-</div>
+setInterval(() => {
+    if(state === 0) {
+        document.getElementById("sun").style.display = "block";
+        document.getElementById("moon").style.display = "none";
+        state = 1;
+    } else {
+        document.getElementById("sun").style.display = "none";
+        document.getElementById("moon").style.display = "block";
+        state = 0;
+    }
+}, 3000);
+</script>
+
+</body>
+</html>
